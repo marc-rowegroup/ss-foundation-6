@@ -5,7 +5,7 @@
     $SiteConfig.SiteBodyScripts.RAW
     <% include Header %>
     <% include Success %>
-    <% include FlexSlider %>
+    <%-- <% include FlexSlider %> --%>
         $Layout
     <% include Footer %>
     <% include DocumentFooter %>

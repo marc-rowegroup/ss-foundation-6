@@ -1,4 +1,3 @@
 
-	$ElementalArea
-	$Form
-	<%-- $Content --%>
+$Form
+$Content

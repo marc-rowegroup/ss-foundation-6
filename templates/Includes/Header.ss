@@ -1,17 +1,17 @@
 <div class="grid-container full header">
     <div id="header" class="grid-x align-middle">
-        <div class="cell large-auto show-for-large text-center">
+        <div class="cell large-2 show-for-large text-center">
             <% if SiteConfig.SiteLogo %>
-            <a href="/" class="" style="font-size:24px">
+            <a href="/" class="logo-contain">
                 $SiteConfig.SiteLogo
             </a>
             <% else %>
-            <h1 class="show-for-large-up" style="font-size:32px;font-weight:700;padding:0;margin:0;">
+            <h1 class="show-for-large-up" style="font-size:24px;font-weight:600;padding:0;margin:0;">
                 <a style="" href="{$baseUrl}">$SiteConfig.Title</a>
             </h1>
             <% end_if %>
         </div>
-        <div class="cell large-9 small-12">
+        <div class="cell large-10 small-12">
             <% include MegaMenu %>
         </div>
         <div class="cell large-auto show-for-large">
