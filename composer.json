@@ -1,5 +1,5 @@
 {
-	"name": "els/ss-foundation-6",
+	"name": "marc-rowegroup/ss-foundation-6",
 	"type": "silverstripe-theme",
 	"description": "Foundation 6 Theme for SilverStripe",
 	"keywords": [
@@ -8,7 +8,8 @@
 	],
 	"require":
 	{
-		"composer/installers": "*"
+		"composer/installers": "*",
+        "silverstripe/framework": ">=3.5"
 	},
 	"extra": {
 		"installer-name": "ss-foundation-6",
