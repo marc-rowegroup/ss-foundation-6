@@ -75,3 +75,29 @@
     width:99%;
     z-index: 2;
 }
+
+/* Hero section */
+
+
+.hero-section {
+    background: url("https://images.pexels.com/photos/3137064/pexels-photo-3137064.jpeg") 100% no-repeat;
+    background-size: cover;
+    height: 75vh;
+    text-align: center;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-inner {
+    color: #fefefe;
+    text-shadow: 1px 1px 2px #0a0a0a;
+  }
+  
+  .hero-inner h1{
+    font-size: 6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }

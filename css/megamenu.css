@@ -71,7 +71,7 @@ Screen style's
 
 .mega-menu > ul > li a {
     text-decoration: none;
-    padding: 1.5em 2em;
+    padding: 1.25rem 1.5rem;
     display: block;
 }
 
@@ -83,7 +83,7 @@ Screen style's
     display: none;
     width: 100%;
     background: #f0f0f0;
-    padding: 20px;
+    padding: 16px;
     position: absolute;
     z-index: 99;
     left: 0;
@@ -161,7 +161,7 @@ Screen style's
 
 .mega-menu > ul > li > ul.normal-sub > li a {
     border: 0;
-    padding: 1em 0;
+    padding: .5rem 0;
 }
 
 
@@ -188,7 +188,7 @@ Mobile style's
         display: block;
     }
     .mega-menu > ul > li a {
-        padding: 1.5em;
+        padding: 1.25rem;
         width: 100%;
         display: block;
     }

@@ -1,6 +1,6 @@
 <div class="mega-menu-container">
     <div class="mega-menu">
-        <div class="clearfix hide-for-large">
+        <%-- <div class="hide-for-large">
             <% if SiteConfig.SiteLogo %>
                 <a href="/" class="show-for-large-up float-left">
                     $SiteConfig.SiteLogo
@@ -11,9 +11,9 @@
                 </h1>
             <% end_if %>
             <a href="" class="mega-menu-mobile float-right">
-            <%-- <i class="fas fa-bars"></i> --%>
+            <i class="fas fa-bars"></i>
             </a>
-        </div>
+        </div> --%>
         <ul>
             <% loop Menu(1) %>
             <li class="<% if $LinkingMode == " current" || $LinkingMode=="section" %>active

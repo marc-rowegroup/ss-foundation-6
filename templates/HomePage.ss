@@ -4,8 +4,8 @@
 <body class="$ClassName.ATT">
     $SiteConfig.SiteBodyScripts.RAW
     <% include Header %>
-    <% include Success %>
     <%-- <% include FlexSlider %> --%>
+    <% include Hero %>
         $Layout
     <% include Footer %>
     <% include DocumentFooter %>
