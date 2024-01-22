@@ -1,4 +1,4 @@
-<div class="grid-x grid-padding-x grid-padding-y grid-margin-x grid-margin-y feature alternating<% if $Last %> last<% end_if %>">
+<div class="grid-x grid-padding-x feature alternating<% if $Last %> last<% end_if %>">
     <% if $Image %>
     <div class="medium-4 <% if $Odd %>medium-order-2<% end_if %> cell">
         <img src="$Image.URL" class="img-fluid" alt="<% if $Image.Title %>$Image.Title.ATT<% else %>$Title.ATT<% end_if %>">

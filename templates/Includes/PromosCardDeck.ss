@@ -1,4 +1,4 @@
-<div class="grid-x grid-margin-x small-up-2 <% if $WidthVariant == "large-12 cell" %>medium-up-4<% else %> medium-up-3<% end_if %>">
+<div class="grid-x grid-padding-x small-up-2 <% if $WidthVariant == "large-12 cell" %>medium-up-4<% else %> medium-up-3<% end_if %>">
     <% loop $PromoList %>
         <div class="cell">
             <div class="card">
