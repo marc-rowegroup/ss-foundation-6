@@ -1,6 +1,8 @@
 <div class="grid-container <% if PageLayout=0 %>full<% end_if %> main typography" role="main">
-<div class="grid-x grid-padding-x grid-margin-x align-middle">	
-	$Content
+<div class="grid-x grid-padding-x grid-padding-y align-middle">	
+	<div class="cell">
+		$Content
+	</div>
 </div>
 </div>
 <% if HideChildren = 1 %>

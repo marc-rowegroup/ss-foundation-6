@@ -1,6 +1,6 @@
 <footer class="footer">
     <div class="grid-container">
-        <div class="grid-x grid-padding-x grid-margin-x align-middle">
+        <div class="grid-x grid-padding-x align-middle">
             <div class="cell large-6">
                 <ul class="menu align-center">
                     <li>

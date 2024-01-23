@@ -1,3 +1,5 @@
-<ul class="breadcrumbs">
-	$Breadcrumbs
-</ul>
+<% if Children %>
+	<ul class="breadcrumbs">
+		$Breadcrumbs
+	</ul>
+<% end_if %>
