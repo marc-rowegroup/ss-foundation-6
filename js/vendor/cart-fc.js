@@ -43,7 +43,6 @@ var FC = FC || {};
 FC.onLoad = function () {
   var toggleLinkText = "Shop";
   FC.client.on("ready.done", function () {
-    console.log("something");
     var toggleLinkAvailable = false;
     var cartTab = $(".shoppingcart-fixed");
     if (FC.json.item_count == 0) {
