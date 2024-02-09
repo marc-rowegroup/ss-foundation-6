@@ -1,29 +1,75 @@
 <footer class="footer">
     <div class="grid-container">
+            <div class="grid-x grid-padding-x grid-padding-y">
+            <div class="cell large-6">
+                <% loop $getStoreLocationPage %>
+                    <div class="grid-x">
+                        <div class="cell large-4">
+                            <% include SafetynetLogoFooter %>
+                        </div>
+                        <div class="cell large-8">
+                            <h3>$StoreName</h3>
+                            <p>$Address</p>
+                            <p>$City, $State $Postcode</p>
+                            <a href="$Link" class="button">Contact Us</a>
+                        </div>
+                    </div>
+                <% end_loop %>
+            </div>
+            <div class="cell large-3">
+                <% loop PageById(6) %>
+                    <h3><a href="$Tilte">$Title</a></h3>
+                    <% loop Children %>
+                        <ul class="vertical menu">
+                            <li><a href="$Link">$Title</a></li>
+                        </ul>
+                    <% end_loop %>
+                <% end_loop %>
+            </div>
+            <div class="cell large-3">
+                <% loop PageById(6) %>
+                    <h3><a href="$Tilte">Quick Links</a></h3>
+                    <% loop Children %>
+                        <ul class="vertical menu">
+                            <li><a href="$Link">$Title</a></li>
+                        </ul>
+                    <% end_loop %>
+                <% end_loop %>
+            </div>
+        </div>
         <div class="grid-x grid-padding-x align-middle">
             <div class="cell large-6">
                 <ul class="menu align-center">
-                    <li>
-                        <% if SiteConfig.FacebookLink %><a href="$SiteConfig.FacebookLink" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <% if SiteConfig.FacebookLink %>
+                        <li>
+                            <a href="$SiteConfig.FacebookLink" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                        </li>
                         <% end_if %>
-                    </li>
-                    <li>
-                        <% if SiteConfig.TwitterLink %><a href="$SiteConfig.TwitterLink" target="_blank"><i class="fab fa-twitter"></i> </a>
+                        <% if SiteConfig.TwitterLink %>
+                        <li>
+                            <a href="$SiteConfig.TwitterLink" target="_blank"><i class="fa-brands fa-x-twitter"></i> </a>
+                        </li>
                         <% end_if %>
-                    </li>
-                    <% if SiteConfig.InstagramLink %>
-                    <li>
-                        <a href="$SiteConfig.InstagramLink" target="_blank"><i class="fab fa-instagram"></i></a>
-                    </li>
-                    <% end_if %>
-                    <li>
-                        <% if SiteConfig.YouTubeLink %><a href="$SiteConfig.YouTubeLink" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <% if SiteConfig.InstagramLink %>
+                        <li>
+                            <a href="$SiteConfig.InstagramLink" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
                         <% end_if %>
-                    </li>
-                    <li>
-                        <% if SiteConfig.LinkedinLink %><a href="$SiteConfig.LinkedinLink" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <% if SiteConfig.YouTubeLink %>
+                        <li>
+                            <a href="$SiteConfig.YouTubeLink" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                        </li>
                         <% end_if %>
-                    </li>
+                        <% if SiteConfig.TikTokLink %>
+                            <li>
+                                <a href="$SiteConfig.TikTokLink" target="_blank"><i class="fa-brands fa-tiktok"></i></i></a>
+                            </li>
+                        <% end_if %>
+                        <% if SiteConfig.LinkedInLink %>
+                        <li>
+                            <a href="$SiteConfig.LinkedInLink" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        </li>
+                        <% end_if %>
                 </ul>
             </div>
             <div class="cell large-6">

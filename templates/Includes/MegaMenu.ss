@@ -1,5 +1,5 @@
-<div class="mega-menu-container">
-    <div class="mega-menu">
+
+    <div class="mega-menu hide-for-small">
         <%-- <div class="hide-for-large">
             <% if SiteConfig.SiteLogo %>
                 <a href="/" class="show-for-large-up float-left">
@@ -49,37 +49,5 @@
                 <% end_if %>
             </li>
             <% end_loop %>
-            <li class="show-for-small-only">
-                <a href="">Follow Us</a>
-                <ul class="menu">
-                    <% if SiteConfig.FacebookLink %>
-                        <li>
-                            <a href="$SiteConfig.FacebookLink" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                        </li>
-                        <% end_if %>
-                        <% if SiteConfig.TwitterLink %>
-                        <li>
-                            <a href="$SiteConfig.TwitterLink" target="_blank"><i class="fab fa-twitter"></i> </a>
-                        </li>
-                        <% end_if %>
-                        <% if SiteConfig.InstagramLink %>
-                        <li>
-                            <a href="$SiteConfig.InstagramLink" target="_blank"><i class="fab fa-instagram"></i></a>
-                        </li>
-                        <% end_if %>
-                        <% if SiteConfig.YouTubeLink %>
-                        <li>
-                            <a href="$SiteConfig.YouTubeLink" target="_blank"><i class="fab fa-youtube"></i></a>
-                        </li>
-                        <% end_if %>
-                        <% if SiteConfig.LinkedinLink %>
-                        <li>
-                            <a href="$SiteConfig.LinkedinLink" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                        </li>
-                        <% end_if %>
-                </ul>
-            </li>
         </ul>
-        
     </div>
-</div>

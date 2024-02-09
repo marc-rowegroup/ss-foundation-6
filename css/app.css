@@ -1,3 +1,32 @@
+.header-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.header-container .flex-col{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.header-logo{
+    display: inline-flex;
+    gap: 12px;
+    align-items: center;
+    padding:6px;
+}
+
+.call-us{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.dark-overlay{
+    background: rgba(18, 22, 34, .85);
+}
 
 /* flexslider */
 .slideshow .flexslider{
@@ -11,7 +40,7 @@
     margin: 0;
 }
 .slide-overlay {
-    background: rgba(42, 52, 67, .6);
+    background: rgba(18, 22, 34, .85);
     height: 100%;
     width: 100%;
 }
@@ -49,10 +78,12 @@
     z-index: 2;
 }
 /* Hero section */
+
 .hero-section {
     background: url("https://images.pexels.com/photos/3137064/pexels-photo-3137064.jpeg") 100% no-repeat;
     background-size: cover;
-    height: 75vh;
+    height: 60vh;
+    min-height: 560px;
     text-align: center;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -60,12 +91,112 @@
     align-items: center;
     justify-content: center;
   }
-  .hero-inner {
-    color: #fefefe;
-    text-shadow: 1px 1px 2px #0a0a0a;
+  .hero-container {
+    max-width: 1540px;
+    padding: 24px;
   }
-  .hero-inner h1{
-    font-size: 6rem;
+  .hero-content{
+    color: #fefefe;
+    text-align: left;
+  }
+  .hero-content h1{
+    font-size: 4.5rem;
+    line-height: 1;
     font-weight: 600;
     text-transform: uppercase;
   }
+
+/* Reviews Section */
+
+/* Welcome Section */
+.welcome-section{
+    min-height: 460px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Services Section */
+.service-panel{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 8px;
+    padding:64px;
+    min-height: 600px;
+}
+.panel-content{
+    max-width: 600px;
+    color: #fff;
+}
+.panel-content span{
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: 200;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    border-bottom: solid 1px #ff0000;
+}
+.panel-content h2{
+    font-size: 3rem;
+    font-weight: 600;
+}
+/* QuoteForm Section */
+.quoteform-inner{
+    min-height: 600px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.quoteform-inner h3{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+/* Footer */
+
+.footer{
+  background:#121622;
+  color: #fff;  
+}
+
+.footer h3{
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.footer a{
+    color: #fff;
+}
+
+@media only screen and (max-width: 1440px) {
+    .hero-container {
+        max-width: 1280px;
+        padding: 12px;
+      }
+}
+
+@media only screen and (max-width: 1280px) {
+    
+}
+
+@media only screen and (max-width: 1024px) {
+    .header-container{
+        padding: 0 12px;
+    }
+    .mega-menu > ul > li a{
+        padding: 1rem 1rem;
+    }
+    .hero-content h1 {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    
+}

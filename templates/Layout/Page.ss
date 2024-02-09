@@ -1,12 +1,14 @@
 <div class="grid-container <% if PageLayout=0 %>full<% end_if %> main typography" role="main">
-<div class="grid-x grid-padding-x grid-padding-y align-middle">	
-	<div class="cell">
-		$Content
+	<div class="grid-x grid-padding-x grid-padding-y align-middle">	
+		<div class="cell">
+			$Content
+		</div>
 	</div>
 </div>
-</div>
+
 <% if HideChildren = 1 %>
-	<% else_if Children %>
+	
+<% else_if Children %>
 	<div class="grid-container">
 		<%-- <div class="grid-x grid-padding-x small-up-2 medium-up-4 large-up-4">
 			<% loop Children %>	
@@ -33,4 +35,4 @@
 			</div>
 		</div>
 	</div>
-	<% end_if %>	
+<% end_if %>	
