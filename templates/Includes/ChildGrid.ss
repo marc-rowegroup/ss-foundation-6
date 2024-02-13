@@ -1,10 +1,9 @@
 
 <% if HideChildren = 1 %>
-
-    <% else_if Children %>
-        <div class="grid-container">
+<% else_if SubPages %>
+        <div class="grid-container <% if PageLayout=0 %>full<% end_if %>">
             <div class="grid-x grid-padding-x grid-padding-y small-up-2 medium-up-4 large-up-4">
-                <% loop Children %>	
+                <% loop SubPages %>	
                     <div class="cell <% loop Top.Level(1) %>$URLSegment<% end_loop %>">
                         <div class="card">
                             <% if Photo.ScaleWidth(300) %>
@@ -20,4 +19,4 @@
                 <% end_loop %>
             </div>
         </div>
-    <% end_if %>	
+<% end_if %>	

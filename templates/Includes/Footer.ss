@@ -27,14 +27,12 @@
                 <% end_loop %>
             </div>
             <div class="cell large-3">
-                <% loop PageById(6) %>
                     <h3><a href="$Tilte">Quick Links</a></h3>
-                    <% loop Children %>
+                    <% loop Menu(1) %>
                         <ul class="vertical menu">
                             <li><a href="$Link">$Title</a></li>
                         </ul>
                     <% end_loop %>
-                <% end_loop %>
             </div>
         </div>
     </div>

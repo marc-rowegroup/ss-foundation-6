@@ -1,4 +1,4 @@
-<div class="grid-container full review-section">
+<div class="grid-container full review-section show-for-large">
 <div class="grid-x grid-padding-x grid-padding-y review-inner align-middle">
     <div class="cell">
         <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
