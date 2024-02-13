@@ -1,5 +1,5 @@
 
-    <div class="mega-menu hide-for-small">
+    <div class="mega-menu hide-small-only">
         <%-- <div class="hide-for-large">
             <% if SiteConfig.SiteLogo %>
                 <a href="/" class="show-for-large-up float-left">
@@ -16,13 +16,8 @@
         </div> --%>
         <ul>
             <% loop Menu(1) %>
-            <li class="<% if $LinkingMode == " current" || $LinkingMode=="section" %>active
-                <% end_if %>
-                <% if $Children %> has-dropdown
-                <% end_if %>">
-                <a href="$Link" title="Go to the $Title.ATT">$MenuTitle
-                    <% if $Children %> <i class="fas fa-angle-down show-for-large" style="margin:4px 0 0 4px;"></i>
-                    <% end_if %></a>
+            <li class="<% if $LinkingMode == " current" || $LinkingMode=="section" %>active<% end_if %><% if $Children %> has-dropdown<% end_if %>">
+                <a href="$Link" title="Go to the $Title.ATT">$MenuTitle<% if $Children %> <i class="fas fa-angle-down show-for-large" style="margin:4px 0 0 4px;"></i><% end_if %></a>
                 <% if $Children %>
                 <ul>
                     <% loop $Children %>

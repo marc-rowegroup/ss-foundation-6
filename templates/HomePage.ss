@@ -4,6 +4,7 @@
 <body class="$ClassName.ATT">
     $SiteConfig.SiteBodyScripts.RAW
     <% include Header %>
+    <% include Modals %>
     <% include SlideoutMenu %>
     <% include Hero %>
     <% include ReviewsSection %>

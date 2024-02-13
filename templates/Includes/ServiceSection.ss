@@ -7,7 +7,7 @@
                         <div class="service-panel dark-overlay">
                             <div class="panel-content">
                                 <span>$SiteConfig.Title</span>
-                                <h2>$title Services</h2>
+                                <h2>$title</h2>
                                 <p>$CategoryBlurb</p>
                             </div>
                             <div class="button-contain">

@@ -35,14 +35,21 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #f7f7f7;
+    color: #f7f7f7;
+    background-color:#121622;
 }
+
+.menu-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+}  
 
 /* Close button styles */
 .menu-close-btn {
     background: none;
     border: none;
     cursor: pointer;
+    color: #f7f7f7;
     font-size: 18px;
 }
 
@@ -51,6 +58,23 @@
     padding: 20px;
 }
 
+.menu-container .nested{
+    background: #f3f5f9;
+}
+.menu-container p{
+    margin-bottom: 0;
+}
+
+.menu-container a,.menu-container .nested a {
+    font-size: 1.125rem;
+    padding: 1.25rem;
+    display: block;
+    border-bottom: solid thin gray;
+}
+
+.menu-container .accordion-menu .nested.is-accordion-submenu{
+    margin-left:0;
+}
 /* Hide scrollbar for the menu container */
 .menu-container::-webkit-scrollbar {
     display: none;
