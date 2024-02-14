@@ -1,6 +1,6 @@
 <footer class="footer">
     <div class="grid-container">
-        <div class="grid-x grid-padding-x grid-padding-y footer-content align-middle">
+        <div class="grid-x grid-padding-x grid-padding-y footer-content">
             <div class="cell large-6 text-center medium-text-left large-text-left">
                 <% loop $getStoreLocationPage %>
                     <div class="grid-x">
@@ -18,20 +18,20 @@
             </div>
             <div class="cell large-3">
                 <h3>Services</h3>
-                <% loop PageById(6) %>
-                    <% loop Children %>
+                <% if $InSection('home') %>
+                    <% loop $ChildrenOf('services') %>
                         <ul class="vertical menu">
                             <li><a href="$Link">$Title</a></li>
                         </ul>
                     <% end_loop %>
-                <% end_loop %>
-                <% loop PageById(20) %>
-                    <% loop Children %>
+                <% end_if %>
+                <% if $InSection('inicio') %>
+                    <% loop $ChildrenOf('servicios') %>
                         <ul class="vertical menu">
                             <li><a href="$Link">$Title</a></li>
                         </ul>
                     <% end_loop %>
-                <% end_loop %>
+                <% end_if %>
             </div>
             <div class="cell large-3">
                     <h3>Quick Links</h3>

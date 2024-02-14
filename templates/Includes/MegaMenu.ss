@@ -17,7 +17,7 @@
         <ul>
             <% loop Menu(1) %>
             <li class="<% if $LinkingMode == " current" || $LinkingMode=="section" %>active<% end_if %><% if $Children %> has-dropdown<% end_if %>">
-                <a href="$Link" title="Go to the $Title.ATT">$MenuTitle<% if $Children %> <i class="fas fa-angle-down show-for-large" style="margin:4px 0 0 4px;"></i><% end_if %></a>
+                <a href="$Link" title="Go to $Title.ATT">$MenuTitle<% if $Children %> <i class="fas fa-angle-down show-for-large" style="margin:4px 0 0 4px;"></i><% end_if %></a>
                 <% if $Children %>
                 <ul>
                     <% loop $Children %>
@@ -25,7 +25,7 @@
                         <% end_if %>
                         <% if $Children %> has-dropdown
                         <% end_if %>">
-                        <a href="$Link" title="Go to the $Title.ATT">$MenuTitle
+                        <a href="$Link" title="Go to $Title.ATT">$MenuTitle
                             <% if $Children %> <i class="fas fa-angle-down show-for-large" style="margin:4px 0 0 4px;"></i>
                             <% end_if %></a>
                         <% if $Children %>
@@ -33,7 +33,7 @@
                             <% loop $Children %>
                             <li class="<% if $LinkingMode == " current" || $LinkingMode=="section" %>active
                                 <% end_if %>">
-                                <a href="$Link" title="Go to the $Title.ATT">$MenuTitle</a>
+                                <a href="$Link" title="Go to $Title.ATT">$MenuTitle</a>
                             </li>
                             <% end_loop %>
                         </ul>

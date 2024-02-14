@@ -9,7 +9,7 @@
 		<% include Success %>
 		<% include TitleBar %>	
 			$Layout
-		<% include ReviewsSection %>
+		<%-- <% include ReviewsSection %> --%>
 		<% include Footer %>
 		<% include DocumentFooter %>
 	</body>

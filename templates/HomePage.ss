@@ -7,7 +7,7 @@
     <% include Modals %>
     <% include SlideoutMenu %>
     <% include Hero %>
-    <% include ReviewsSection %>
+    <%-- <% include ReviewsSection %> --%>
     <% include WelcomeSection %>
     <% include ServiceSection %>
     <% include QuoteFormSection %>   
