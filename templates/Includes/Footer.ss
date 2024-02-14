@@ -17,8 +17,15 @@
                 <% end_loop %>
             </div>
             <div class="cell large-3">
+                <h3>Services</h3>
                 <% loop PageById(6) %>
-                    <h3><a href="$Tilte">$Title</a></h3>
+                    <% loop Children %>
+                        <ul class="vertical menu">
+                            <li><a href="$Link">$Title</a></li>
+                        </ul>
+                    <% end_loop %>
+                <% end_loop %>
+                <% loop PageById(20) %>
                     <% loop Children %>
                         <ul class="vertical menu">
                             <li><a href="$Link">$Title</a></li>
@@ -27,7 +34,7 @@
                 <% end_loop %>
             </div>
             <div class="cell large-3">
-                    <h3><a href="$Tilte">Quick Links</a></h3>
+                    <h3>Quick Links</h3>
                     <% loop Menu(1) %>
                         <ul class="vertical menu">
                             <li><a href="$Link">$Title</a></li>

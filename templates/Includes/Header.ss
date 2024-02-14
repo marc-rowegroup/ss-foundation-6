@@ -11,7 +11,8 @@
                 <% include MegaMenu %>
                 <ul class="menu align-center" style="gap:6px">
                     <% loop $getStoreLocationPage %><li class="hide-for-small-only"><a href="tel:$Phone" class="call-us"><i class="fa-solid fa-phone"></i> $Phone</a></li><% end_loop %>
-                    <li class="hide-for-small-only"><a href="#" data-remodal-target="modal-consultation" class="button">Get Started</a></li>
+                    <li class="hide-for-small-only">
+                        <a href="#" data-remodal-target="modal-consultation" class="button">Get Started</a></li>
                     <%-- find modal component in Modals.ss --%>
                     <li class="show-for-small-only"><a class="slide-out-btn button tritary" id="slideMenu01"><i class="fa-solid fa-bars"></i> Menu</a></li>
                     <li class="hide-for-small-only">
@@ -32,7 +33,7 @@
                                 </g>
                                 </svg>
                                 </a>
-                            <a href="http://espanol.safetynetservices" class="button tritary">Es <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <a href="http://es.safetynetservices" class="button tritary">Es <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <mask id="mask0_939_1005" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="16" height="12">
                                 <rect width="16" height="12" fill="white"/>
                                 </mask>

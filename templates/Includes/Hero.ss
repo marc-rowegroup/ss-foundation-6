@@ -9,9 +9,16 @@
               <h1>$HeroSectionTitle</h1>
               <h5>$HeroSectionBlurb</h5>
               <div class="button-group large stacked-for-small">
-                <a class="button" href="#" data-remodal-target="modal-consultation" >FREE CONSULTATION</a>
-                <%-- find modal component in Modals.ss --%>
-                <a class="button tritary hollow" href="http://espanol.safetynetservices">HABLAMOS ESPAÑOL</a>
+                <% if $InSection('home') %>
+                  <a class="button" href="#" data-remodal-target="modal-consultation" >FREE CONSULTATION</a>
+                  <%-- find modal component in Modals.ss --%>
+                  <a class="button tritary hollow" href="http://es.safetynetservices">HABLAMOS ESPAÑOL</a>
+                <% end_if %>
+                <% if $InSection('inicio') %>
+                  <a class="button" href="#" data-remodal-target="modal-consultation" >CONSULTA GRATIS</a>
+                  <%-- find modal component in Modals.ss --%>
+                  <a class="button tritary hollow" href="http://dev.safetynetservices">WE SPEAK ENGLISH</a>
+                <% end_if %>
               </div>
             </div>
           </div>

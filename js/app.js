@@ -5,7 +5,7 @@ AOS.init({
 	disable: 'mobile', // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
 });
 
-
+// SlideOuts
 document.addEventListener("DOMContentLoaded", function () {
   const slideButtons = document.querySelectorAll(".slide-out-btn");
   const menuBgOverlay = document.querySelector(".menu-bg-overlay");

@@ -118,7 +118,6 @@
     background: url("https://images.pexels.com/photos/3137064/pexels-photo-3137064.jpeg") 100% no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 60vh;
     min-height: 560px;
     text-align: center;
     display: -webkit-flex;
@@ -135,7 +134,7 @@
     color: #fefefe;
   }
   .hero-content h1{
-    font-size: 4.5rem;
+    font-size: 4rem;
     line-height: 1;
     font-weight: 600;
     text-transform: uppercase;
@@ -270,9 +269,15 @@ blockquote{
     font-weight: 600;
     text-transform: uppercase;
 }
+
 .footer a{
     color: #fff;
 }
+
+.footer .vertical a{
+    padding: 1rem 0;
+}
+
 
 @media only screen and (max-width: 1440px) {
     .hero-container {
