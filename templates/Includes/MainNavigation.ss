@@ -17,7 +17,7 @@
 						<% end_if %>
 					</li>
 					<% end_loop %>
-					<li><a href="$Link">See all &rarr;</a></li>
+					<li><a href="$Link">See all</a></li>
 				</ul>
 				<% end_if %>
 			</li>

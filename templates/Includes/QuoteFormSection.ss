@@ -7,13 +7,13 @@
                         <h3>
                             Are you ready<br>to experience the<br>SafetyNet difference?
                         </h3>
-                        <p>Complete el formulario y nos comunicaremos con usted en breve</p>
+                        <p>Fill out the form and we will reach out to you shortly</p>
                     <% end_if %>
                     <% if $InSection('inicio') %>
                         <h3>
                             ¿Estás listo<br>experimentar el<br>Diferencia de SafetyNet?
                         </h3>
-                        <p>Fill out the form and we will reach out to you shortly</p>
+                        <p>Complete el formulario y nos comunicaremos con usted en breve</p>
                     <% end_if %>
                 </div>
                 <div class="cell large-6">
