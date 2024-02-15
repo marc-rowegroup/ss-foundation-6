@@ -18,20 +18,17 @@
             </div>
             <div class="cell large-3">
                 <h3>Services</h3>
-                <% if $InSection('home') %>
                     <% loop $ChildrenOf('services') %>
                         <ul class="vertical menu">
                             <li><a href="$Link">$Title</a></li>
                         </ul>
                     <% end_loop %>
-                <% end_if %>
-                <% if $InSection('inicio') %>
+               
                     <% loop $ChildrenOf('servicios') %>
                         <ul class="vertical menu">
                             <li><a href="$Link">$Title</a></li>
                         </ul>
                     <% end_loop %>
-                <% end_if %>
             </div>
             <div class="cell large-3">
                     <h3>Quick Links</h3>
