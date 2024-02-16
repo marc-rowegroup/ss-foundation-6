@@ -4,9 +4,11 @@
 <body class="$ClassName.ATT">
     $SiteConfig.SiteBodyScripts.RAW
     <% include Header %>
-    <%-- <% include FlexSlider %> --%>
+    <% include Modals %>
+	<% include SlideoutMenu %>
     <% include Hero %>
         $Layout
+    <% include QuoteFormSection %>
     <% include Footer %>
     <% include DocumentFooter %>
 </body>

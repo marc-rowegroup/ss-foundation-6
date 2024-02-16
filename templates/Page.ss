@@ -4,6 +4,8 @@
 	<body class="$ClassName.ATT">
 	$SiteConfig.SiteBodyScripts.RAW	
 		<% include Header %>
+		<% include Modals %>
+		<% include SlideoutMenu %>
 		<% include Success %>
 		<% include TitleBar %>	
 			$Layout
