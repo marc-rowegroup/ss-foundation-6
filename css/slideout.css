@@ -35,6 +35,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+<<<<<<< HEAD
     color: #f7f7f7;
     background-color:#121622;
 }
@@ -44,12 +45,20 @@
     font-weight: 600;
 }  
 
+=======
+    background-color: #f7f7f7;
+}
+
+>>>>>>> 565061fcf704c3a786d83409a5259aca807b6155
 /* Close button styles */
 .menu-close-btn {
     background: none;
     border: none;
     cursor: pointer;
+<<<<<<< HEAD
     color: #f7f7f7;
+=======
+>>>>>>> 565061fcf704c3a786d83409a5259aca807b6155
     font-size: 18px;
 }
 
@@ -58,6 +67,7 @@
     padding: 20px;
 }
 
+<<<<<<< HEAD
 .menu-container .nested{
     background: #f3f5f9;
 }
@@ -75,6 +85,8 @@
 .menu-container .accordion-menu .nested.is-accordion-submenu{
     margin-left:0;
 }
+=======
+>>>>>>> 565061fcf704c3a786d83409a5259aca807b6155
 /* Hide scrollbar for the menu container */
 .menu-container::-webkit-scrollbar {
     display: none;
