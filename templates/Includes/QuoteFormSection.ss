@@ -1,7 +1,7 @@
 <div class="quoteform-section">
     <div class="dark-overlay">
         <div class="grid-container">
-            <div class="grid-x grid-padding-x grid-padding-y quoteform-inner align-middle">
+            <div class="grid-x grid-padding-x grid-padding-y quoteform-section-content align-middle">
                 <div class="cell large-6 text-center medium-text-left large-text-left">
                     <% if $InSection('home') %>
                         <h3>

@@ -32,7 +32,7 @@
 
 
 .dark-overlay{
-    background: rgba(18, 22, 34, .85);
+    background: rgba(0, 0, 0, .85);
 }
 
 /* Header */
@@ -160,6 +160,9 @@
 
 .quoteform-section{
     color: #fff;
+}
+.quoteform-section-content{
+    padding: 24px;
 }
 
 /* Footer */
