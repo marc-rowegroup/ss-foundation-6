@@ -21,7 +21,7 @@
         <% if $InSection('inicio') %>
             <% loop $ChildrenOf('servicios') %>
                 <div class="cell large-6 medium-12 small-12">
-                    <div style="background-image:url($CategoryImage.Link);border-radius:8px;">
+                    <div style="background-image:url($CategoryImage.Link);border-radius:8px">
                         <div class="service-panel dark-overlay">
                             <div class="panel-content">
                                 <span>$SiteConfig.Title</span>

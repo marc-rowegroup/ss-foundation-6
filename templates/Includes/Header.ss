@@ -18,10 +18,10 @@
                     <li class="hide-for-small-only">
                         <%-- <select onchange="if (this.value) window.location.href=this.value">
                             <option value="">Language</option>
-                            <option value="http://dev.safetynetservices">English</option>
-                            <option value="http://espanol.safetynetservices">Espanol</option>
+                            <option value="https://safetynetdotservices.us/">English</option>
+                            <option value="https://es.safetynetdotservices.us/">Espanol</option>
                         </select> --%>
-                            <a href="http://dev.safetynetservices" class="button tritary">Eng <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <a href="https://safetynetdotservices.us/" class="button tritary">Eng <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <mask id="mask0_939_1004" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="16" height="12">
                                 <rect width="16" height="12" fill="white"/>
                                 </mask>
@@ -33,7 +33,7 @@
                                 </g>
                                 </svg>
                                 </a>
-                            <a href="http://es.safetynetservices" class="button tritary">Es <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <a href="https://es.safetynetdotservices.us/" class="button tritary">Es <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <mask id="mask0_939_1005" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="16" height="12">
                                 <rect width="16" height="12" fill="white"/>
                                 </mask>
@@ -91,6 +91,4 @@
             </ul>
         </div> --%>
 </header>
-
-<%-- <% include TopBar %> --%>
     

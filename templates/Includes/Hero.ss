@@ -11,22 +11,22 @@
               <div class="button-group large stacked-for-small">
                 <% if $InSection('home') %>
                   <a class="button" href="#" data-remodal-target="modal-consultation" >FREE CONSULTATION</a>
-                  <%-- find modal component in Modals.ss --%>
-                  <a class="button tritary hollow" href="http://es.safetynetservices">HABLAMOS ESPAÑOL</a>
+                 
+                  <a class="button tritary hollow" href="https://es.safetynetdotservices.us/">HABLAMOS ESPAÑOL</a>
                 <% end_if %>
                 <% if $InSection('inicio') %>
                   <a class="button" href="#" data-remodal-target="modal-consultation" >CONSULTA GRATIS</a>
-                  <%-- find modal component in Modals.ss --%>
-                  <a class="button tritary hollow" href="http://dev.safetynetservices">WE SPEAK ENGLISH</a>
+                  
+                  <a class="button tritary hollow" href="https://safetynetdotservices.us/">WE SPEAK ENGLISH</a>
                 <% end_if %>
               </div>
             </div>
           </div>
       </div>  
     <% else %>
-      <div class="hero-section">
+      <div class="hero-section" style="background-attachment:fixed;">
           <div class="grid-x grid-padding-x grid-padding-y hero-container">
-            <div class="cell large-6 medium-12 small-12  hero-content">
+            <div class="cell large-12 medium-12 small-12  hero-content">
               <h1>Add Hero Header</h1>
               <h5>Add Hero subtitle about anything you like</h5>
             </div>
