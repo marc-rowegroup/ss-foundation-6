@@ -2,15 +2,14 @@
 /* Slider */
 .slick-loading .slick-list
 {
-    background: #fff url('./images/ajax-loader.gif') center center no-repeat;
+    background: #fff url(/_resources/themes/ss-foundation-6/images/ajax-loader.gif) center center no-repeat;
 }
 
-/* slick counter */
-
+/* slick counter (replace with your custom css below) */
 
 .slick-card-dark h3,.slick-card-dark h4,.slick-card-dark p,.slick-card-dark span{
  margin: 0;
- color:white;
+ color:#fff;
 }
 
 .slick-card-dark span{

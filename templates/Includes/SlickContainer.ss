@@ -4,11 +4,11 @@
 <div class="grid-container full">
 <div class="grid-x">
 <div class="cell">
-    <div class="slide-count slider">
+    <div class="slide-count slider" data-aos="fade-up" data-aos-offset="200">
         <div>
             <div class="slick-card-dark">
                 <div class="img-contain">
-                    <img src="https://placehold.it/350x300?text=1">
+                    <img loading="lazy" src="https://placehold.it/350x300?text=1">
                 </div>
                 <div class="card-content">
                     <div class="card-text">
@@ -24,7 +24,7 @@
         <div>
             <div class="slick-card-dark">
                 <div class="img-contain">
-                    <img src="https://placehold.it/350x300?text=2">
+                    <img loading="lazy" src="https://placehold.it/350x300?text=2">
                 </div>
                 <div class="card-content">
                     <div class="card-text">
@@ -40,7 +40,7 @@
         <div>
             <div class="slick-card-dark">
                 <div class="img-contain">
-                    <img src="https://placehold.it/350x300?text=3">
+                    <img loading="lazy" src="https://placehold.it/350x300?text=3">
                 </div>
                 <div class="card-content">
                     <div class="card-text">
@@ -56,7 +56,7 @@
         <div>
             <div class="slick-card-dark">
                 <div class="img-contain">
-                    <img src="https://placehold.it/350x300?text=4">
+                    <img loading="lazy" src="https://placehold.it/350x300?text=4">
                 </div>
                 <div class="card-content">
                     <div class="card-text">
@@ -72,7 +72,7 @@
         <div>
             <div class="slick-card-dark">
                 <div class="img-contain">
-                    <img src="https://placehold.it/350x300?text=5">
+                    <img loading="lazy" src="https://placehold.it/350x300?text=5">
                 </div>
                 <div class="card-content">
                     <div class="card-text">
@@ -88,7 +88,7 @@
         <div>
             <div class="slick-card-dark">
                 <div class="img-contain">
-                    <img src="https://placehold.it/350x300?text=6">
+                    <img loading="lazy" src="https://placehold.it/350x300?text=6">
                 </div>
                 <div class="card-content">
                     <div class="card-text">
@@ -104,7 +104,7 @@
         <div>
             <div class="slick-card-dark">
                 <div class="img-contain">
-                    <img src="https://placehold.it/350x300?text=7">
+                    <img loading="lazy" src="https://placehold.it/350x300?text=7">
                 </div>
                 <div class="card-content">
                     <div class="card-text">
@@ -120,7 +120,7 @@
         <div>
             <div class="slick-card-dark">
                 <div class="img-contain">
-                    <img src="https://placehold.it/350x300?text=8">
+                    <img loading="lazy" src="https://placehold.it/350x300?text=8">
                 </div>
                 <div class="card-content">
                     <div class="card-text">
@@ -136,7 +136,7 @@
         <div>
             <div class="slick-card-dark">
                 <div class="img-contain">
-                    <img src="https://placehold.it/350x300?text=9">
+                    <img loading="lazy" src="https://placehold.it/350x300?text=9">
                 </div>
                 <div class="card-content">
                     <div class="card-text">
