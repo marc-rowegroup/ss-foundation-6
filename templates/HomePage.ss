@@ -7,6 +7,7 @@
     <% include Modals %>
 	<% include SlideoutMenu %>
     <% include Hero %>
+    <% include SlickContainer %>
         $Layout
     <% include QuoteFormSection %>
     <% include Footer %>

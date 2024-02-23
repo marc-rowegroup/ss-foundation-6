@@ -21,8 +21,23 @@
     </div>
     <div class="grid-container">
         <div class="grid-x grid-padding-x grid-padding-y align-middle">
-            <div class="cell large-6">
-                <ul class="menu">
+            <div class="cell large-4">
+                <% with $MenuSet('footer') %> 
+                    <% cached 'YourMenuNameCacheKey', $LastEdited, $MenuItems.max('LastEdited'), $MenuItems.count %>
+                        <% if $MenuItems %>
+                            <ul class="menu">
+                                <% loop $MenuSet('footer').MenuItems %>
+                                    <li>
+                                        <a href="{$Link}" class="{$LinkingMode}">{$Title}</a>
+                                    </li>
+                                <% end_loop %>
+                            </ul>
+                        <% end_if %>
+                    <% end_cached %>
+                <% end_with %>
+            </div>
+            <div class="cell large-4">
+                <ul class="menu align-middle">
                     <% if SiteConfig.FacebookLink %>
                         <li>
                             <a href="$SiteConfig.FacebookLink" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
@@ -55,16 +70,11 @@
                         <% end_if %>
                 </ul>
             </div>
-            <div class="cell large-6">
+            <div class="cell large-4">
                 <ul class="menu">
-                    <li >
+                    <li>
                     <a href="https://rowegroup.com/">© Copyright $Now.Year Site by RoweGroup.com</a>
                     </li>
-                    <%-- <li>
-                        <% loop $MenuSet('Footer').MenuItems %>
-                        <a href="$Link" class="$LinkingMode">$MenuTitle</a>
-                        <% end_loop %>
-                    </li> --%>
                 </ul>
             </div>
         </div>

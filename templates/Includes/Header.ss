@@ -6,6 +6,7 @@
                 $SiteConfig.SiteLogo
             </a>
             <% else %>
+            {$SVG('els-logo')}  
             <h1 class="show-for-large-up" style="font-size:20px;font-weight:600;padding:0;margin:0;">
                 <a style="" href="{$baseUrl}">$SiteConfig.Title</a>
             </h1>

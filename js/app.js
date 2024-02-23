@@ -50,3 +50,53 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+$(document).on('ready', function() {
+    $(".slide-count").slick({
+        dots: true,
+        infinite: true,
+        autoplay: false,
+        centerMode: true,
+        centerPadding: '40px',
+        lazyLoad: 'ondemand',
+        prevArrow: $(".prev-arrow"),
+        nextArrow: $(".next-arrow"),
+        appendArrows: '.counter-container',
+        dotsClass: 'counter',
+        appendDots: '.counter-container',
+        customPaging: function(slider, i) {
+            var currentSlide = i + 1;
+            var totalSlides = slider.slideCount;
+            return '<a class="slick-dot">' + currentSlide + ' of ' + totalSlides + '</a>';
+        },
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        responsive: [{
+                breakpoint: 1024,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+          
+        ]
+    });
+});
