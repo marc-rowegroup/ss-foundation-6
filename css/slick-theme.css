@@ -7,12 +7,12 @@
 
 /* slick counter (replace with your custom css below) */
 
-.slick-card-dark h3,.slick-card-dark h4,.slick-card-dark p,.slick-card-dark span{
+.slide-count .slick-card-dark h3,.slick-card-dark h4,.slick-card-dark p,.slick-card-dark span{
  margin: 0;
  color:#fff;
 }
 
-.slick-card-dark span{
+.slide-count .slick-card-dark span{
  font-size: 13px;
  font-style: normal;
  font-weight: 300;
@@ -21,26 +21,26 @@
  text-transform:uppercase;
 }
 
-.slick-card-dark h4{
+.slide-count .slick-card-dark h4{
  font-size: 20px;
  font-style: normal;
  font-weight: 500;
  line-height: normal;
 }
-.slick-card-dark h3{
+.slide-count .slick-card-dark h3{
  font-size: 24px;
  font-style: normal;
  font-weight: 600;
  line-height: normal;
 }
-.slick-card-dark p{
+.slide-count .slick-card-dark p{
  font-size: 16px;
  font-style: normal;
  font-weight: 400;
  line-height: normal;
 }
 
-.slick-card-dark {
+.slide-count .slick-card-dark {
     display: flex;
     flex-direction: row;
     gap: 8px;
@@ -48,7 +48,7 @@
     border-radius: 12px;
     background: #222;
 }
-.card-content{
+.flex-card-content{
  display: flex;
  flex-direction: column;
  justify-content: space-between;
@@ -56,7 +56,7 @@
  width:320px;
  padding:32px;
 }
-.card-text{
+.flex-card-text{
  display: flex;
  flex-direction: column;
  gap: 16px;
@@ -81,21 +81,21 @@
     margin: 20px auto;
 }
 
-.slick-slide {
+.slide-count .slick-slide {
     margin: 0px 12px;
 }
 
-.slick-slide img {
+.slide-count .slick-slide img {
     width: 100%;
 }
 
-.slick-slide {
+.slide-count .slick-slide {
     transition: all ease-in-out .3s;
     opacity: .5;
 }
 
 
-.slick-current {
+.slide-count .slick-current {
     opacity: 1;
 }
 
@@ -113,12 +113,16 @@
 
 .nav-btn{
  background:rgba(0,0,0,0.5);
- padding:6px 16px 4px 16px;
  border-radius:50px;
+ display: inline-flex;
+ align-self: center;
+ padding: 6px 20px;
 }
+
 .nav-btn:hover{
  background:rgba(0,0,0,1);
 }
+
 .counter-container{
  display:flex;
  justify-content: center;
@@ -131,13 +135,28 @@
 }
 .counter li {
    display: none;
-}
-.counter li.slick-active {
+
+}.counter li.slick-active {
    display: block;
 }
 
+/* Round Nav Button */
+
+.round-btn{
+    background:rgba(0,0,0,0.05);
+    border: solid thin #111;
+    border-radius:100px;
+    display: inline-flex;
+    align-self: center;
+    padding: 24px;
+   }
+.round-btn:hover{
+    background: none;
+}
+
 @media (max-width: 1024px){
- .card{
+
+ .slick-card-dark{
    flex-direction:column;
  }
  .img-contain img {

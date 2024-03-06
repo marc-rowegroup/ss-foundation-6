@@ -17,9 +17,10 @@
     </div>
     <div class="flex-col">
             <ul class="menu align-center" style="gap:6px">
-                <li class="hide-for-small-only"><a href="#" data-remodal-target="modal-consultation" class="button">Get Started</a></li>
                 <%-- find modal component in Modals.ss --%>
-                <li class="show-for-small-only"><a class="slide-out-btn button tritary" id="slideMenu01"><i class="fa-solid fa-bars"></i> Menu</a></li>
+                <li class="hide-for-small-only"><a href="#" data-remodal-target="modal-consultation" class="button">Get Started</a></li>
+                <%-- find slideouts in SlideoutMenu.ss --%>
+                <li class="show-for-small-only"><a class="slide-out-btn button light" id="slideMenu01"><i class="fa-solid fa-bars"></i> Menu</a></li>
             </ul>
             <ul class="menu align-center hide-for-small-only">
                 <% if SiteConfig.FacebookLink %>

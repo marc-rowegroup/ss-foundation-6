@@ -143,13 +143,15 @@
     padding:60px 24px;
 }
 .title-content h1{
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 600;
+    color:#fff;
 }
 .breadcrumbs{
     display: inline-block;
     background: rgba(18, 22, 34, .6);
     padding: 16px;
+    color:#fff
 }
 
 .content-container{
