@@ -144,11 +144,11 @@
 
 .round-btn{
     background:rgba(0,0,0,0.05);
-    border: solid thin #111;
+    border: solid 1px #111;
     border-radius:100px;
     display: inline-flex;
     align-self: center;
-    padding: 24px;
+    padding: 16px;
    }
 .round-btn:hover{
     background: none;
