@@ -1,0 +1,29 @@
+
+/* Cart Integration */
+ /* cart in header */
+#customcart-cart {display:none; position:absolute; top:0; right:0; max-width:100%; background-color:#FEFEFE; border-radius: 0 0 5px 5px; border-bottom:1px solid #999; z-index:100; overflow:hidden; box-shadow: 0 0 35px 0 rgba(0, 0, 0, 0.5);}
+#customcart-toggle-cart {display:block; height:30px; padding:3px 12px 3px 32px; color:#333; background:#FEFEFE url('../images/cart.png') 7px center no-repeat; text-decoration:none; transition:height 300ms ease-out, padding 300ms ease-out;}
+@media only screen and (min-width : 768px) {
+	.customcart__mobile-only {
+		display:none;
+	}
+}
+#customcart-cart .customcart__empty-contents {display:none;}
+#customcart-cart.empty #customcart-toggle-cart {background-image:url('../images/cart-empty.png');}
+#customcart-cart.empty span {display:none !important;}
+#customcart-cart.empty .customcart__empty-contents {display:inline !important;}
+#customcart-toggle-cart:hover {height:34px; padding-top:5px; padding-bottom:5px;}
+#customcart-cart.expanded #customcart-toggle-cart:hover {height:30px; padding:3px 12px 3px 32px;}
+#customcart-toggle-cart .close {display:none; float:right;}
+#customcart-cart.expanded #customcart-toggle-cart .close {display:block;}
+#customcart-cart .customcart-cart-dropdown {display:none;}
+#customcart-cart.expanded .customcart-cart-dropdown {display:block;}
+#customcart-empty-message {padding: 10px; border-radius: 4px 4px 8px 8px;}
+#customcart-cart-contents {display:none; border-collapse: collapse; border-spacing: 0; font-size:12px;}
+#customcart-cart-contents th {padding:2px 5px; font-size:12px;}
+#customcart-cart-contents td {padding: 5px;}
+#customcart-subtotal td { text-align: right; border-top: 2px solid #CCC; }
+#customcart-clear-cart {float:right; text-decoration:none;}
+#customcart-cart-contents .customcart-checkout {text-decoration:none;}
+#customcart-cart-contents .customcart-remove {display:block; width:16px; height:16px; background:transparent url('../images/cart-delete.png') center center no-repeat;}
+/* end cart in header */
