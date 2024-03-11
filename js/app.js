@@ -106,6 +106,47 @@ $(document).on('ready', function() {
           
         ]
     });
+
+    // Slick Brand Carousel
+    $(".newscrollinglistings-H").slick({
+        dots: false,
+        infinite: true,
+        autoplay: true,
+        lazyLoad: 'ondemand',
+        prevArrow: $(".listing-prev-arrow"),
+        nextArrow: $(".listing-next-arrow"),
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        responsive: [{
+                breakpoint: 1280,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    infinite: true,
+                    dots: false
+                }
+            },
+            {
+                breakpoint: 800,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+          
+        ]
+    });
+
     // Slick Brand Carousel
     $(".brand-carousel").slick({
         dots: false,

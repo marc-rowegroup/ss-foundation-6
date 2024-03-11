@@ -7,9 +7,9 @@
     <% include Modals %>
 	<% include SlideoutMenu %>
     <% include Hero %>
-    <% include SlickContainer %>
-        $Layout
     <% include Listings %>
+    <%-- <% include SlickContainer %> --%>
+        $Layout
     <% include BrandCarousel %>
     <% include QuoteFormSection %>
     <% include Footer %>
