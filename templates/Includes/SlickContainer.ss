@@ -1,5 +1,5 @@
-<%-- Add or adjust slick variables to js/app.js --%>
-<%-- Add custom slick theme to css/slick-theme.css --%>
+<%-- Add or adjust slick variables in js/app.js --%>
+<%-- Add custom slick theme styles to css/slick-theme.css --%>
 <div class="grid-container full">
     <div class="grid-x">
         <div class="cell">

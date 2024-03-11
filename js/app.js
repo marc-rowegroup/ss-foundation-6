@@ -54,6 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // Slick Settings
 $(document).on('ready', function() {
+
     // Slick Counter 
     $(".slide-count").slick({
         dots: true,
@@ -107,7 +108,7 @@ $(document).on('ready', function() {
         ]
     });
 
-    // Slick Brand Carousel
+    // Slick Scroll Listings default settings
     $(".newscrollinglistings-H").slick({
         dots: false,
         infinite: true,
