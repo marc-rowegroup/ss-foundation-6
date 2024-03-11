@@ -9,8 +9,8 @@
     <% include Hero %>
     <% include SlickContainer %>
         $Layout
-    <% include BrandCarousel %>
     <% include Listings %>
+    <% include BrandCarousel %>
     <% include QuoteFormSection %>
     <% include Footer %>
     <% include DocumentFooter %>

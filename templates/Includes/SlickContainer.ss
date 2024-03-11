@@ -8,7 +8,7 @@
                 <div>
                     <div class="slick-card-dark">
                         <div class="img-contain">
-                            <img loading="lazy" src="https://placehold.it/350x300?text=1">
+                            <img loading="lazy" src="https://thumbs.dreamstime.com/b/modern-tractor-futuristic-design-innovative-high-tech-machinery-agricultural-industrial-use-sleek-dynamic-shape-272786250.jpg">
                         </div>
                         <div class="flex-card-content">
                             <div class="flex-card-text">
@@ -24,7 +24,7 @@
                 <div>
                     <div class="slick-card-dark">
                         <div class="img-contain">
-                            <img loading="lazy" src="https://placehold.it/350x300?text=2">
+                            <img loading="lazy" src="https://thumbs.dreamstime.com/b/modern-tractor-futuristic-design-innovative-high-tech-machinery-agricultural-industrial-use-sleek-dynamic-shape-272786250.jpg">
                         </div>
                         <div class="flex-card-content">
                             <div class="flex-card-text">
@@ -40,7 +40,7 @@
                 <div>
                     <div class="slick-card-dark">
                         <div class="img-contain">
-                            <img loading="lazy" src="https://placehold.it/350x300?text=3">
+                            <img loading="lazy" src="https://thumbs.dreamstime.com/b/modern-tractor-futuristic-design-innovative-high-tech-machinery-agricultural-industrial-use-sleek-dynamic-shape-272786250.jpg">
                         </div>
                         <div class="flex-card-content">
                             <div class="flex-card-text">
@@ -56,7 +56,7 @@
                 <div>
                     <div class="slick-card-dark">
                         <div class="img-contain">
-                            <img loading="lazy" src="https://placehold.it/350x300?text=4">
+                            <img loading="lazy" src="https://thumbs.dreamstime.com/b/modern-tractor-futuristic-design-innovative-high-tech-machinery-agricultural-industrial-use-sleek-dynamic-shape-272786250.jpg">
                         </div>
                         <div class="flex-card-content">
                             <div class="flex-card-text">
@@ -72,7 +72,7 @@
                 <div>
                     <div class="slick-card-dark">
                         <div class="img-contain">
-                            <img loading="lazy" src="https://placehold.it/350x300?text=5">
+                            <img loading="lazy" src="https://thumbs.dreamstime.com/b/modern-tractor-futuristic-design-innovative-high-tech-machinery-agricultural-industrial-use-sleek-dynamic-shape-272786250.jpg">
                         </div>
                         <div class="flex-card-content">
                             <div class="flex-card-text">
@@ -88,7 +88,7 @@
                 <div>
                     <div class="slick-card-dark">
                         <div class="img-contain">
-                            <img loading="lazy" src="https://placehold.it/350x300?text=6">
+                            <img loading="lazy" src="https://thumbs.dreamstime.com/b/modern-tractor-futuristic-design-innovative-high-tech-machinery-agricultural-industrial-use-sleek-dynamic-shape-272786250.jpg">
                         </div>
                         <div class="flex-card-content">
                             <div class="flex-card-text">
@@ -104,7 +104,7 @@
                 <div>
                     <div class="slick-card-dark">
                         <div class="img-contain">
-                            <img loading="lazy" src="https://placehold.it/350x300?text=7">
+                            <img loading="lazy" src="https://thumbs.dreamstime.com/b/modern-tractor-futuristic-design-innovative-high-tech-machinery-agricultural-industrial-use-sleek-dynamic-shape-272786250.jpg">
                         </div>
                         <div class="flex-card-content">
                             <div class="flex-card-text">
@@ -120,7 +120,7 @@
                 <div>
                     <div class="slick-card-dark">
                         <div class="img-contain">
-                            <img loading="lazy" src="https://placehold.it/350x300?text=8">
+                            <img loading="lazy" src="https://thumbs.dreamstime.com/b/modern-tractor-futuristic-design-innovative-high-tech-machinery-agricultural-industrial-use-sleek-dynamic-shape-272786250.jpg">
                         </div>
                         <div class="flex-card-content">
                             <div class="flex-card-text">
@@ -136,7 +136,7 @@
                 <div>
                     <div class="slick-card-dark">
                         <div class="img-contain">
-                            <img loading="lazy" src="https://placehold.it/350x300?text=9">
+                            <img loading="lazy" src="https://thumbs.dreamstime.com/b/modern-tractor-futuristic-design-innovative-high-tech-machinery-agricultural-industrial-use-sleek-dynamic-shape-272786250.jpg">
                         </div>
                         <div class="flex-card-content">
                             <div class="flex-card-text">

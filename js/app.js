@@ -1,3 +1,5 @@
+// App.js is where all firefunction scripts will be
+
 $(document).foundation()
 
 AOS.init({
@@ -75,6 +77,7 @@ $(document).on('ready', function() {
         responsive: [{
                 breakpoint: 1024,
                 settings: {
+                    centerPadding: '20px',
                     arrows: false,
                     slidesToShow: 3,
                     slidesToScroll: 3,
@@ -83,8 +86,9 @@ $(document).on('ready', function() {
                 }
             },
             {
-                breakpoint: 600,
+                breakpoint: 640,
                 settings: {
+                    centerPadding: '20px',
                     arrows: false,
                     slidesToShow: 2,
                     slidesToScroll: 2
@@ -93,6 +97,7 @@ $(document).on('ready', function() {
             {
                 breakpoint: 480,
                 settings: {
+                    centerPadding: '20px',
                     arrows: false,
                     slidesToShow: 1,
                     slidesToScroll: 1
@@ -112,17 +117,17 @@ $(document).on('ready', function() {
         slidesToShow: 5,
         slidesToScroll: 1,
         responsive: [{
-                breakpoint: 1024,
+                breakpoint: 1280,
                 settings: {
                     arrows: false,
                     slidesToShow: 3,
                     slidesToScroll: 3,
                     infinite: true,
-                    dots: true
+                    dots: false
                 }
             },
             {
-                breakpoint: 600,
+                breakpoint: 800,
                 settings: {
                     arrows: false,
                     slidesToShow: 2,
