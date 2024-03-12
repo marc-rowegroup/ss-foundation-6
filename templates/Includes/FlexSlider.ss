@@ -1,5 +1,5 @@
-<% require css('dynamic/flexslider: thirdparty/flexslider/flexslider.css') %>
-<% require css('dynamic/flexslider: css/silverstripe-flexslider.css') %>
+<% require css('rowegroup/flexslider:thirdparty/flexslider/flexslider.css') %>
+<% require css('rowegroup/flexslider:css/silverstripe-flexslider.css') %>
 <% if $SlideShow %>
     <div class="slideshow">
         <div class="flexslider">
@@ -26,5 +26,5 @@
     <% end_if %>
 </div>
 <% end_if %>
-<%-- <% require javascript('silverstripe/admin: thirdparty/jquery/jquery.js') %> --%>
-<% require javascript('dynamic/flexslider: thirdparty/flexslider/jquery.flexslider-min.js') %>
+<%-- <% require javascript('silverstripe/admin:thirdparty/jquery/jquery.js') %> --%>
+<% require javascript('rowegroup/flexslider:thirdparty/flexslider/jquery.flexslider-min.js') %>

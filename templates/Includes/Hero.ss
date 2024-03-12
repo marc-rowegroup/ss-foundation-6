@@ -1,7 +1,5 @@
-<% if FlexSlider %>
-   <% include FlexSlider %>
-<% else %>
-  <% if ShowHero = 1 %>
+<%-- Hero can be found in Homepage.php --%>
+<% if ShowHero = 1 %>
     <% if HeroSectionTitle || HeroSectionBlurb || VideoEmbedLink %>
       <div class="hero-section" style="background-image:url($HeroBg.Link);background-color:#222;">
         <div class="grid-container">
@@ -25,7 +23,7 @@
         </div>
       </div>  
     <% end_if %>
-  <% end_if %>
 <% end_if %>
+
 
 

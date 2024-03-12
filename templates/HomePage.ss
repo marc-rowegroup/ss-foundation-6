@@ -6,7 +6,8 @@
     <% include Header %>
     <% include Modals %>
 	<% include SlideoutMenu %>
-    <% include Hero %>
+    <% include Hero %><%-- basic hero option if a slide carousel is not needed --%>
+    <% include Flexslider %>
     <% include Listings %>
     <%-- <% include SlickContainer %> --%>
         $Layout

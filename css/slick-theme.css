@@ -87,6 +87,7 @@
     border: 1px solid #ccc;
     border-radius: 12px;
     background: #222;
+    min-height: 292px;
 }
 
 .slide-count .slick-slide {
