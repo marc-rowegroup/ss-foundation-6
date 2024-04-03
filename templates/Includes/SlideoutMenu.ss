@@ -1,7 +1,13 @@
 <div id="SlideOut01" class="slide-out-container">
     <div class="menu-panel">
         <div class="btn-contain">
-        <span class="menu-title">Menu</span>
+        <span class="menu-title">
+            <% if $CurrentSubsite.Title == 'Spanish' %>
+                Menú
+            <% else %>
+                Menu
+            <% end_if %>    
+        </span>
             <button class="menu-close-btn" tabindex="0">
                 Close X
             </button>
@@ -39,7 +45,13 @@
             <% end_loop %>
         </div>
         <div class="menu-container">
-            <a href="#" data-remodal-target="modal-consultation" class="button expanded">Click To Get Started</a>
+            <a href="#" data-remodal-target="modal-consultation" class="button expanded">
+            <% if $CurrentSubsite.Title == 'Spanish' %>
+                Empezar
+            <% else %>
+                Click To Get Started
+            <% end_if %>    
+            </a>
         </div>
     </div>
 </div>

@@ -17,21 +17,28 @@
                 <% end_loop %>
             </div>
             <div class="cell large-3">
-                <h3>Services</h3>
-                    <% loop $ChildrenOf('services') %>
-                        <ul class="vertical menu">
-                            <li><a href="$Link">$Title</a></li>
-                        </ul>
-                    <% end_loop %>
-               
+                <% if $CurrentSubsite.Title == 'Spanish' %>
+                    <h3>Servicios</h3>
                     <% loop $ChildrenOf('servicios') %>
                         <ul class="vertical menu">
                             <li><a href="$Link">$Title</a></li>
                         </ul>
                     <% end_loop %>
+                <% else %>
+                    <h3>Services</h3>
+                    <% loop $ChildrenOf('services') %>
+                        <ul class="vertical menu">
+                            <li><a href="$Link">$Title</a></li>
+                        </ul>
+                    <% end_loop %>
+                <% end_if %>
             </div>
             <div class="cell large-3">
+                <% if $CurrentSubsite.Title == 'Spanish' %>
+                    <h3>Vínculos</h3>
+                <% else %>
                     <h3>Quick Links</h3>
+                <% end_if %>
                     <% loop Menu(1) %>
                         <ul class="vertical menu">
                             <li><a href="$Link">$Title</a></li>

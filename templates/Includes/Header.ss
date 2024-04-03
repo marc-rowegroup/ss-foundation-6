@@ -12,10 +12,16 @@
                 <ul class="menu align-center" style="gap:6px">
                     <% loop $getStoreLocationPage %><li class="hide-for-small-only"><a href="tel:$Phone" class="call-us"><i class="fa-solid fa-phone"></i> $Phone</a></li><% end_loop %>
                     <li class="hide-for-small-only">
-                        <a href="#" data-remodal-target="modal-consultation" class="button">Get Started</a></li>
+                        <% if $CurrentSubsite.Title == 'Spanish' %>
+                            <a href="#" data-remodal-target="modal-consultation" class="button">Cotización</a>
+                        <% else %>
+                            <a href="#" data-remodal-target="modal-consultation" class="button">Get Started</a>
+                        <% end_if %>    
+                    </li>
                     <%-- find modal component in Modals.ss --%>
                     <li class="show-for-small-only"><a class="slide-out-btn button tritary" id="slideMenu01"><i class="fa-solid fa-bars"></i> Menu</a></li>
                     <li class="hide-for-small-only">
+                        
                         <%-- <select onchange="if (this.value) window.location.href=this.value">
                             <option value="">Language</option>
                             <option value="https://safetynetdotservices.us/">English</option>
@@ -91,4 +97,5 @@
             </ul>
         </div> --%>
 </header>
+
     
