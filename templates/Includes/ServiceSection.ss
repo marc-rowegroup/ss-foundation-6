@@ -5,12 +5,12 @@
                 <div class="cell large-6 medium-12 small-12">
                     <div style="background-image:url($CategoryImage.Link);border-radius:8px;">
                         <div class="service-panel dark-overlay">
-                            <div class="panel-content">
+                            <div class="panel-content" data-aos="fade-up">
                                 <span>$SiteConfig.Title</span>
                                 <h2>$title</h2>
                                 <p>$CategoryBlurb</p>
                             </div>
-                            <div class="button-contain">
+                            <div class="button-contain" data-aos="fade-up">
                                 <a href="$Link" class="button large">View Services</a>
                             </div>
                         </div>
@@ -22,12 +22,12 @@
                 <div class="cell large-6 medium-12 small-12">
                     <div style="background-image:url($CategoryImage.Link);border-radius:8px">
                         <div class="service-panel dark-overlay">
-                            <div class="panel-content">
+                            <div class="panel-content" data-aos="fade-up">
                                 <span>$SiteConfig.Title</span>
                                 <h2>$title</h2>
                                 <p>$CategoryBlurb</p>
                             </div>
-                            <div class="button-contain">
+                            <div class="button-contain" data-aos="fade-up">
                                 <a href="$Link" class="button large">Ver Servicios</a>
                             </div>
                         </div>

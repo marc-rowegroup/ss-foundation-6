@@ -2,7 +2,7 @@
     <div class="dark-overlay">
         <div class="grid-container">
             <div class="grid-x grid-padding-x grid-padding-y quoteform-inner align-middle">
-                <div class="cell large-6 text-center medium-text-left large-text-left">
+                <div class="cell large-6 text-center medium-text-left large-text-left" data-aos="fade-right">
                     <% if InPage('Home') %>
                         <h3>
                             Are you ready<br>to experience the<br>SafetyNet difference?
@@ -15,7 +15,7 @@
                         <p>Complete el formulario y nos comunicaremos con usted en breve</p>
                     <% end_if %>
                 </div>
-                <div class="cell large-6">
+                <div class="cell large-6" data-aos="fade-left">
                     <% if $CurrentSubsite.Title == 'Spanish' %>
                         $SpanishForm
                     <% else %>

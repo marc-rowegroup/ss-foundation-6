@@ -17,7 +17,7 @@
                 <% loop $SlideShow %>
                     <li>
                         <% if $Image %>
-                            <img src="$Image.URL"  alt="$Image.Title" class="slide">
+                            <img loading="lazy" src="$Image.URL"  alt="$Image.Title" class="slide">
                         <% end_if %>
                     </li>
                 <% end_loop %>

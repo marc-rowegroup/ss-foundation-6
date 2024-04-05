@@ -5,7 +5,7 @@
    <% if HeroSectionTitle || HeroSectionBlurb || VideoEmbedLink %>
      <div class="hero-section" style="background-image:url($HeroBg.Link);background-color:#222;">
          <div class="grid-x grid-padding-x grid-padding-y hero-container">
-           <div class="cell large-6 medium-12 small-12 hero-content text-center medium-text-left large-text-left">
+           <div class="cell large-6 medium-12 small-12 hero-content text-center medium-text-left large-text-left" data-aos="fade-right">
              <h1>$HeroSectionTitle</h1>
              <h5>$HeroSectionBlurb</h5>
              <div class="button-group large stacked-for-small">
@@ -24,7 +24,7 @@
    <% else %>
      <div class="hero-section" style="background-attachment:fixed;">
          <div class="grid-x grid-padding-x grid-padding-y hero-container">
-           <div class="cell large-12 medium-12 small-12  hero-content">
+           <div class="cell large-12 medium-12 small-12  hero-content" data-aos="fade-up">
              <h1>Add Hero Header</h1>
              <h5>Add Hero subtitle about anything you like</h5>
            </div>
