@@ -32,8 +32,12 @@
 		</tr>
 		<tr style="background-color:#fff;">
 			<td style="padding:15px;">
-				<p><strong>Full Name:</strong> $Name</p>
-				<p><strong>Email:</strong> $Email</p>			
+				<p><strong>Company Name:</strong> $CompanyName</p>
+				<p><strong>First Name:</strong> $FirstName</p>
+				<p><strong>Last Name:</strong> $LastName</p>
+				<p><strong>Phone:</strong> $Email</p>
+				<p><strong>Email:</strong> $Phone</p>
+				<p><strong>Number Of Drivers:</strong> $Drivers</p>					
 				<% if Question %><p><strong>Question:</strong> <br/>$Question</p><% end_if %>
 				<hr/>
 				<p><strong>Visit the page this came from:</strong> <br/>$PageUrl</p>
