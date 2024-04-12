@@ -3,9 +3,7 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title><% if $MetaTitle %>$MetaTitle<% else %>$Title<% end_if %> - $SiteConfig.Title</title>
-	<% if MetaKeywords %>
-		<meta name="keywords" content="$MetaKeywords">
-	<% end_if %>
+	<meta name="keywords" content="<% if KeywordOverwrite = 1 %>$MetaKeywords<% else_if $SiteConfig.SiteKeywords %>$SiteConfig.SiteKeywords<% else %>$MetaKeywords<% end_if %>">	
 	<meta name="description" content="$MetaDescription.ATT" />
 	<%--http://ogp.me/--%>
 	<meta property="og:site_name" content="$SiteConfig.Title.ATT" />
