@@ -33,6 +33,10 @@
     width: 50%;
 }
 
+#Form_SpanishForm_FirstName_Holder,#Form_SpanishForm_LastName_Holder,#Form_SpanishForm_Email_Holder,#Form_SpanishForm_Phone_Holder{
+    width: 50%;
+}
+
 .header-container{
     display: flex;
     flex-direction: row;

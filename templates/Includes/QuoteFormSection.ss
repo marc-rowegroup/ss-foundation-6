@@ -10,7 +10,7 @@
                         <p>Fill out the form and we will reach out to you shortly</p>
                     <% else_if InPage('Inicio') %>
                         <h3>
-                            ¿Estás listo<br>experimentar el<br>Diferencia de SafetyNet?
+                            ¿Estás listo para<br>experimentar la<br>Diferencia de SafetyNet?
                         </h3>
                         <p>Complete el formulario y nos comunicaremos con usted en breve</p>
                     <% end_if %>
