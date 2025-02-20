@@ -9,6 +9,7 @@
     <% include Hero %>
     
     <% include WelcomeSection %>
+    <% include FeatureSection %>
     <% include ServiceSection %>
     <% include QuoteFormSection %>   
     <% include Footer %>

@@ -157,6 +157,7 @@
   }
 /* Welcome Section */
 .welcome-section{
+    background: red;
     min-height: 460px;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -164,6 +165,13 @@
     align-items: center;
     justify-content: center;
 }
+
+/* Features Section */
+
+.feature-panel{
+    padding:96px 0;
+}
+
 
 /* Services Section */
 .service-panel{
